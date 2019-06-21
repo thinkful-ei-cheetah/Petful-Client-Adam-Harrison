@@ -7,7 +7,8 @@ import AdoptionService from './Adoption-Service';
 export default class Adoption extends React.Component{
     state={
         dog:null,
-        cat:null
+        cat:null,
+        userName:null
     }
     componentDidMount(){
         AdoptionService.fetchDog()
@@ -25,23 +26,23 @@ export default class Adoption extends React.Component{
     }
     handleNextCat = (ev) => {
         ev.preventDefault();
-        // AdoptionService.fetchNextCat()
-        // .then(cat => {
-        //     this.setState({
-        //         cat
-        //     })
-        // })
-        console.log('clicked')
+        AdoptionService.fetchNextCat()
+        .then(cat => {
+            this.setState({
+                cat
+            })
+        })
+        
     }
     handleNextDog = (ev) => {
         ev.preventDefault();
-        // AdoptionService.fetchNextDog()
-        // .then(dog=>
-        //     this.setState({
-        //         dog
-        //     })
-        // )
-        console.log('clicked')
+        AdoptionService.fetchNextDog()
+        .then(dog=>
+            this.setState({
+                dog
+            })
+        )
+        
     }
     handleAdoptDog = (ev)=> {
         ev.preventDefault();
@@ -61,6 +62,25 @@ export default class Adoption extends React.Component{
             })
         })
     }
+    handleUserName = (ev) =>{
+        ev.preventDefault();
+        this.setState({
+            userName:ev.target.value
+        })
+    }
+    renderDisplay(){
+        if(this.state.userName===null){
+            return (
+                <form className="UserName-Input" onSubmit={this.handleUserName}>
+                    <label htmlFor="UserName-Input">
+                        Put Me In Queue
+                        <input type="text" placeholder="Name" />
+                    </label>
+                    <button type="submit" className="Queue-Btn">Queue</button>
+                </form>
+            )
+        }
+    }
     
     render(){
         return (
@@ -76,6 +96,9 @@ export default class Adoption extends React.Component{
                         handleNextCat={this.handleNextCat}
                         handleAdoptCat={this.handleAdoptCat}
                     />
+                </div>
+                <div className="User-Queue-Container">
+                    {this.renderDisplay()}
                 </div>
             </>
         )
