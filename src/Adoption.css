@@ -1,0 +1,20 @@
+div.Cat-Container{
+    border: 5px solid black;
+    width:80%;
+    min-width:300px;
+    height:50vh;
+    min-height:550px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  div.Dog-Container{
+    border: 5px solid black;
+    width:80%;
+    min-width:300px;
+    height:50vh;
+    min-height:550px;
+    max-width:600px;
+    margin-left:auto;
+    margin-right:auto;
+  }

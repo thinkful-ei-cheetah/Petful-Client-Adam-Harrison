@@ -1,0 +1,14 @@
+.Cat-Img-Container{
+    display:flex;
+    justify-content: center;
+    width:fit-content;
+    height:fit-content;
+}
+img{
+    max-width:300px;
+    max-height:300px;
+}
+h2{
+    display:flex;
+    justify-content: center;
+}

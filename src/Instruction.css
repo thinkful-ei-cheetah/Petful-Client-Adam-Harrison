@@ -1,0 +1,32 @@
+.Instruction{
+    font-size:18px;
+    width:80%;
+    min-width: 600px;
+    display:block;
+    margin-left:auto;
+    margin-right:auto;
+  }
+  h2{
+    display:flex;
+    justify-content: center;
+  }
+  .Adopt-Btn{
+    width:200px;
+    height:50px;
+    font-size:18px;
+  }
+  .Btn-Container{
+    display:flex;
+    justify-content: center;
+  }
+  .Instruction-Body{
+    background-color: Gray;
+    color:white;
+  }
+  img{
+    width:30%;
+    height:auto;
+    min-width:400px;
+    margin-left:35%;
+    
+  }
