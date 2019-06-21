@@ -23,8 +23,8 @@ export default class Dog extends React.Component{
                         <p>{this.props.dogs.story}</p>
                     </div>
                     <div className="Btn">
-                        <button className="Next-Dog">Next Dog</button><br/>
-                        <button className="Adopt">Adopt Me</button>
+                        <button type="button" className="Next-Dog" onClick={this.props.handleNextDog}>Next Dog</button><br/>
+                        <button type="button" className="Adopt" onClick={this.props.handleAdoptDog}>Adopt Me</button>
                     </div>
 
                 </div>

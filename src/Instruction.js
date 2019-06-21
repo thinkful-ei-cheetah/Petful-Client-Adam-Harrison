@@ -1,5 +1,6 @@
 import React from 'react';
 import './Instruction.css';
+import {Link} from 'react-router-dom';
 
  
 export default class Instruction extends React.Component{
@@ -22,7 +23,9 @@ export default class Instruction extends React.Component{
                     </p>
                 </div>
                 <div className="Btn-Container">
-                    <button className="Adopt-Btn">Adopt Now</button>
+                    <Link to='/adopt'>
+                        <button className="Adopt-Btn">Adopt Now</button>
+                    </Link>
                 </div>
             </div>
         )
