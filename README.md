@@ -10,5 +10,8 @@ Collaborators: hhcgit
                
 The Petful App is an appliication for pet adoption. A user can see pictures of dogs and cats that are in the waiting list, and only the first in the list can be adopted by people. There are a queue list for adoption, only the first person in the queque can adopt animal. 
 
-
+Adoption Process:
+![Instruction Page](https://ibb.co/mzP9tgC)
+!Adoption Page Button](https://ibb.co/QjL2VXW)
+![Add User to Queue](https://ibb.co/QMZ4gfb)
 The website uses React for the client, and Nodejs for the server. The pet data and username data stored in separate queue list
