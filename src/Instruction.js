@@ -13,14 +13,25 @@ export default class Instruction extends React.Component{
                         <img src={require('./img/instructionpic.png')} alt="Adopt Me"/>
                     </div>
                     <p>
-                        At distant inhabit amongst by. Appetite welcomed interest the goodness boy not. Estimable education for disposing pronounce her. John size good gay plan sent old roof own. Inquietude saw understood his friendship frequently yet. Nature his marked ham wished.
+                      Welcome to Petful, a website for people to adopt stray cats and dogs
                     </p>
+                    <h2>
+                     Adoption Process:
+                    </h2>
+                    <br/>
                     <p>
-                        Nor hence hoped her after other known defer his. For county now sister engage had season better had waited. Occasional mrs interested far expression acceptance. Day either mrs talent pulled men rather regret admire but. Life ye sake it shed. Five lady he cold in meet up. Service get met adapted matters offence for. Principles man any insipidity age you simplicity understood. Do offering pleasure no ecstatic whatever on mr directly.
+                        Step 1: Press the Adopt Now button below to enter the adoption page.
                     </p>
+                    <br/>
                     <p>
-                        Stronger unpacked felicity to of mistaken. Fanny at wrong table ye in. Be on easily cannot innate in lasted months on. Differed and and felicity steepest mrs age outweigh. Opinions learning likewise daughter now age outweigh. Raptures stanhill my greatest mistaken or exercise he on although. Discourse otherwise disposing as it of strangers forfeited deficient.
+                        Step 2: Wait for the website to load the information of pets in the adoption list.
                     </p>
+                    <br/>
+                    <p>
+                        Step 3: There is only one rule here that applies here: First Come First Serve! This not only works for people who want to adopt, but also animal in list. Only first person in queue can choose to adopt the first cat or dog in queue, so if you want your new pal, you must be hurry to put yourself in queue. By putting your name in the bottom of the page will put you in the waiting list.
+                    <p/>
+                    <br/>
+                    <h3> Good Luck!!<h3/>
                 </div>
                 <div className="Btn-Container">
                     <Link to='/adopt'>
