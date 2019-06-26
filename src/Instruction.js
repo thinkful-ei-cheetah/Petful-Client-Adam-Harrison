@@ -29,9 +29,10 @@ export default class Instruction extends React.Component{
                     <br/>
                     <p>
                         Step 3: There is only one rule here that applies here: First Come First Serve! This not only works for people who want to adopt, but also animal in list. Only first person in queue can choose to adopt the first cat or dog in queue, so if you want your new pal, you must be hurry to put yourself in queue. By putting your name in the bottom of the page will put you in the waiting list.
-                    <p/>
+                    </p>
                     <br/>
-                    <h3> Good Luck!!<h3/>
+                    <h3> Good Luck!!
+                        </h3>
                 </div>
                 <div className="Btn-Container">
                     <Link to='/adopt'>
